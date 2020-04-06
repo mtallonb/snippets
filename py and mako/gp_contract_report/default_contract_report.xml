@@ -1,0 +1,587 @@
+<openerp>
+	<data noupdate="True">	
+
+		<!-- ******************* DEFAULT VALUES CA_ ******************* -->
+
+		<record id="gp_contract_report_CA__EN" model="gp.contract_report">
+			<field name="report_type">CA_</field>
+			<field name="language_rep">en_US</field>
+			<field name="title_rep">AMENDMENT TO THE EMPLOYMENT CONTRACT</field>
+			<field name="text1_rep">
+1. Duration of Contract
+The estimated start date of the Employment relationship is: ?DATE_START
+and the contract is expected to end on: ?DATE_END
+
+2. Place of Work and Working Position
+The Employee shall be employed as ?POSITION on the ?SHIP (subject to changes).
+
+3. Salary
+The basic salary (during an assignment to a ship - nur UV) shall be € ?BASIC_SALARY (, and € ?RED_BASIC_SALARY during periods without service - nur UV), the monthly net salary (during an assignment to a ship - nur UV) shall equal € ?NET_SALARY ( and € ?RED_NET_SALARY  in periods without service - nur UV)  (including payment of compensation for days of rest, contribution to private pension provision and deduction of the insurance contribution).
+
+4. Entitlement to Vacation Days
+The Employee is entitled to 25 paid vacation days per calendar year.
+
+5. Illness and Injury
+The Employee renounces voluntarily to be insured by the Employer against illness and injury. The Employee confirms furthermore, that he/she is insured at his/her own cost and risk against illness and injury at his/her own private insurance whose benefits have to be at least equivalent to the benefits of the Employer’s insurance.
+						
+		 	</field>
+			<field name="dig_signature_rep">True</field>			
+			<field name="is_default_rep" eval="True" />
+			
+		</record>
+	
+		<record id="gp_contract_report_CA__DE" model="gp.contract_report">
+			<field name="report_type">CA_</field>
+			<field name="language_rep">de_DE</field>
+			<field name="title_rep">VERTRAGSÄNDERUNG ZUM BESTEHENDEN ARBEITSVERTRAG</field>
+			<field name="text1_rep">
+1. Vertragsdauer
+Das Arbeitsverhältnis beginnt voraussichtlich am: ?DATE_START
+und endet voraussichtlich am:	?DATE_END
+
+2. Arbeitsort und Funktion
+Der Arbeitnehmer wird auf der ?SHIP als ?POSITION eingesetzt (Änderungen vorbehalten).
+
+3. Lohn
+Der Basis-Lohn (bei Einsatz auf einem Schiff - nur UV) beträgt € ?BASIC_SALARY ( und in der fahrtfreien Zeit € ?RED_BASIC_SALARY - nur UV), der monatlich ausbezahlte Nettolohn( bei Einsatz auf einem Schiff - nur UV) € ?NET_SALARY ( und in der fahrtfreien Zeit € ?RED_NET_SALARY - nur UV) (inklusive Zahlung der Ruhetagsentschädigung, Beitrag für die private Altersvorsorge und Abzug vom Versicherungsbeitrag).
+
+4. Recht auf Urlaub
+Dem Arbeitnehmer stehen 25 bezahlte Urlaubstage pro Kalenderjahr zu. 
+
+5. Krankheit und Unfall
+Der Arbeitnehmer verzichtet auf eigenen Wunsch, dass der Arbeitgeber ihn gegen Krankheit und Unfall versichert. Der Arbeitnehmer bestätigt hiermit, dass er sich selbst auf eigene Kosten und eigenes Risiko gegen Krankheit und Unfall versichert und seine private Versicherung mindestens gleichwertig ist, wie die des Arbeitgebers.
+			</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep">True</field>
+		</record> 
+		
+		
+		<!-- ******************* DEFAULT VALUES COE ******************* -->
+		<record id="gp_contract_report_COE_EN" model="gp.contract_report">
+			<field name="report_type">COE</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Evidence of Employment</field>
+			<field name="text1_rep">We hereby certify that ?GENDER ?NAME was employed as follows:
+			</field>
+			<field name="text2_rep">We stay at your disposal for any further information or question under the phone number 0041 41 220 20 00.
+			</field>
+			<field name="farewell_rep">With best regards</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		
+		<record id="gp_contract_report_COE_DE" model="gp.contract_report">
+			<field name="report_type">COE</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Arbeitsbestätigung</field>
+			<field name="text1_rep">Hiermit bestätigen wir, dass ?GENDER ?NAME wie folgt bei uns angestellt war:
+			</field>
+			<field name="text2_rep">Für weitere Auskünfte stehen wir Ihnen unter der Telefonnummer 0041 41 220 20 00 gerne zur Verfügung.
+			</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+				<!-- ******************* DEFAULT VALUES COE ******************* -->
+		<record id="gp_contract_report_COEM_EN" model="gp.contract_report">
+			<field name="report_type">COEM</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Evidence of Employment</field>
+			<field name="text1_rep">We hereby certify that ?GENDER ?NAME was employed as follows:
+			</field>
+			<field name="text2_rep">We stay at your disposal for any further information or question under the phone number 0041 41 220 20 00.
+			</field>
+			<field name="farewell_rep">With best regards</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>		
+		
+		<record id="gp_contract_report_COEM_DE" model="gp.contract_report">
+			<field name="report_type">COEM</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Arbeitsbestätigung</field>
+			<field name="text1_rep">Hiermit bestätigen wir, dass ?GENDER ?NAME wie folgt bei uns angestellt war:
+			</field>
+			<field name="text2_rep">Für weitere Auskünfte stehen wir Ihnen unter der Telefonnummer 0041 41 220 20 00 gerne zur Verfügung.
+			</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		
+		<!-- ******************* DEFAULT VALUES CES ******************* -->
+		<record id="gp_contract_report_CES_EN" model="gp.contract_report">
+			<field name="report_type">CES</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Evidence of Employment</field>
+			<field name="text1_rep">We hereby certify that ?GENDER ?NAME was employed as follows:
+			</field>
+			<field name="text2_rep">We stay at your disposal for any further information or question under the phone number 0041 41 220 20 00.
+			</field>
+			<field name="farewell_rep">With best regards</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<record id="gp_contract_report_CES_DE" model="gp.contract_report">
+			<field name="report_type">CES</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Arbeitsbestätigung</field>
+			<field name="text1_rep">Hiermit bestätigen wir, dass ?GENDER ?NAME wie folgt bei uns angestellt war:
+			</field>
+			<field name="text2_rep">Für weitere Auskünfte stehen wir Ihnen unter der Telefonnummer 0041 41 220 20 00 gerne zur Verfügung.
+			</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>  
+		
+		
+		<!-- ******************* DEFAULT VALUES CEC ******************* -->
+		<record id="gp_contract_report_CEC_EN" model="gp.contract_report">
+			<field name="report_type">CEC</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Confirmation</field>
+			<field name="text1_rep">We hereby certify that ?GENDER ?NAME was employed as follows:
+			</field>
+			<field name="text2_rep">This confirmation has been issued at the employee’s request and we are very pleased to have ?GENDER ?LASTNAME as part of our team until ?DATE_END.
+			</field>
+			<field name="farewell_rep">With best regards</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<record id="gp_contract_report_CEC_DE" model="gp.contract_report">
+			<field name="report_type">CEC</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Bestätigung</field>
+			<field name="text1_rep">Hiermit bestätigen wir, dass ?GENDER ?NAME wie folgt bei uns angestellt ist:
+			</field>
+			<field name="text2_rep">Diese Bestätigung wurde auf Wunsch von ?GENDER ?LASTNAME  ausgestellt. Wir freuen uns, ?GENDER ?LASTNAME noch bis zum ?DATE_END in unserem Team zu haben.
+			</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>  
+		
+		<!-- ******************* DEFAULT VALUES CTR ******************* -->
+		<record id="gp_contract_report_CTR_EN" model="gp.contract_report">
+			<field name="report_type">CTR</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">TO WHOM IT MAY CONCERN</field>
+			<field name="text1_rep">This is to certify that ?GENDER ?NAME has been employed with our company aboard of a passenger ship during the below stated period as follows:
+			</field>
+			<field name="text2_rep">This is also to certify that ?GENDER ?NAME has complied in full with Cyprus income-tax regulation for seamen.
+			</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<record id="gp_contract_report_CTR_DE" model="gp.contract_report">
+			<field name="report_type">CTR</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">TO WHOM IT MAY CONCERN</field>
+			<field name="text1_rep">This is to certify that ?GENDER ?NAME has been employed with our company aboard of a passenger ship during the below stated period as follows:
+			</field>
+			<field name="text2_rep">This is also to certify that ?GENDER ?NAME has complied in full with Cyprus income-tax regulation for seamen.
+			</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<!-- ******************* DEFAULT VALUES CTRM ******************* -->
+		<record id="gp_contract_report_CTRM_EN" model="gp.contract_report">
+			<field name="report_type">CTRM</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">TO WHOM IT MAY CONCERN</field>
+			<field name="text1_rep">This is to certify that ?GENDER ?NAME has been employed with our company aboard of a passenger ship during the below stated period as follows:
+			</field>
+			<field name="text2_rep">This is also to certify that ?GENDER ?NAME has complied in full with Cyprus income-tax regulation for seamen.
+			</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<record id="gp_contract_report_CTRM_DE" model="gp.contract_report">
+			<field name="report_type">CTRM</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">TO WHOM IT MAY CONCERN</field>
+			<field name="text1_rep">This is to certify that ?GENDER ?NAME has been employed with our company aboard of a passenger ship during the below stated period as follows:
+			</field>
+			<field name="text2_rep">This is also to certify that ?GENDER ?NAME has complied in full with Cyprus income-tax regulation for seamen.
+			</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<!-- ******************* DEFAULT VALUES LCH ******************* -->
+		<record id="gp_contract_report_LCH_EN" model="gp.contract_report">
+			<field name="report_type">LCH</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Lucerne</field>
+			<field name="greeting_rep">Dear ?GENDER ?LASTNAME</field>
+			<field name="farewell_rep">With best regards</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		<record id="gp_contract_report_LCH_DE" model="gp.contract_report">
+			<field name="report_type">LCH</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Luzern</field>
+			<field name="greeting_rep">Sehr geehrter  ?GENDER ?LASTNAME</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<!-- ******************* DEFAULT VALUES LZY ******************* -->
+		<record id="gp_contract_report_LZY_EN" model="gp.contract_report">
+			<field name="report_type">LZY</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol</field>
+			<field name="greeting_rep">Dear ?GENDER ?LASTNAME</field>
+			<field name="farewell_rep">With best regards</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+
+		</record>
+		<record id="gp_contract_report_LZY_DE" model="gp.contract_report">
+			<field name="report_type">LZY</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="greeting_rep">Sehr geehrter ?GENDER ?LASTNAME</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+		</record>		
+		
+		<!-- ******************* DEFAULT VALUES IC_ ******************* -->
+		<record id="gp_contract_report_IC__EN" model="gp.contract_report">
+			<field name="report_type">IC_</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Lucerne</field>
+			<field name="title_rep">Interview confirmation / Confirmation travel expenses</field>			
+			<field name="greeting_rep">Dear ?GENDER ?LASTNAME</field>
+			<field name="text1_rep">We hereby certify that you have attended the Interview on XX.XX.XXXX in YYYY. We furthermore certify that any kind of travel expenses were entirely paid by yourself.</field>
+			<field name="farewell_rep">With best regards</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		<record id="gp_contract_report_IC__DE" model="gp.contract_report">
+			<field name="report_type">IC_</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Luzern</field>
+			<field name="title_rep">Bestätigung Interview/Reisekosten</field>
+			<field name="greeting_rep">Dear ?GENDER ?LASTNAME</field>
+			<field name="text1_rep">Gerne bestätigen wir, dass Sie am XX.XX.XXXX in YYYY zum Vorstellungsgespräch erschienen sind. Allfällige Reisekosten haben wir nicht erstattet. </field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+				<!-- ******************* DEFAULT VALUES LSE ******************* -->
+		<record id="gp_contract_report_LSE__EN" model="gp.contract_report">
+			<field name="report_type">LSE</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Lucerne</field>
+			<field name="title_rep">Formular E301 / ?NAME (geb. ?BIRTH)</field>			
+			<field name="greeting_rep">Sehr geehrtee Frau Minguez</field>
+			<field name="text1_rep">Jennifer Minguez
+Effingerstrasse 31
+3003 Bern
+			</field>
+			<field name="text2_rep">
+Beiliegend senden wir Ihnen das Formular "Arbeitgeberbescheinigung" und Ihren Brief vom XX.XX.XXXX zu unserer Entlastung zurück. Leider können wir Ihrer Bitte nicht nachkommen, das Formular auszufüllen.
+
+?GENDER ?NAME  war in der Schweiz weder bei der Firma Gsell und Partner GmbH noch bei der Firma G&amp;P Cruise Hotel Management GmbH angestellt.
+
+?GENDER ?NAME  war jedoch bei der Firma G&amp;P Sea Cruise Hotel Management (Cyprus-Limassol) Ltd beschäftigt.
+
+Bei weiteren Fragen wird Ihnen Frau Euripidou, die Geschäftsführerin von G&amp;P Sea Cruise Hotel Management (Cyprus-Limassol) Ltd (++357 250 288 53), gerne Auskunft geben. 
+			</field>
+			
+			<field name="text3_rep">
+?GENDER ?NAME war jedoch bei der Firma G&amp;P Cruise Hotel Management S.à.r.l., Luxemburg beschäftigt.
+
+Bei weiteren Fragen wird Ihnen Herr Tholl (++352 26 68 31 95) gerne Auskunft geben.
+			</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<record id="gp_contract_report_LSE__DE" model="gp.contract_report">
+			<field name="report_type">LSE</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Luzern</field>
+			<field name="title_rep">Formular E301 / ?NAME (geb. ?BIRTH)</field>			
+			<field name="greeting_rep">Sehr geehrtee Frau Minguez</field>
+			<field name="text1_rep">Jennifer Minguez
+Effingerstrasse 31
+3003 Bern
+			</field>
+			<field name="text2_rep">
+Beiliegend senden wir Ihnen das Formular "Arbeitgeberbescheinigung" und Ihren Brief vom XX.XX.XXXX zu unserer Entlastung zurück. Leider können wir Ihrer Bitte nicht nachkommen, das Formular auszufüllen.
+
+?GENDER ?NAME war in der Schweiz weder bei der Firma Gsell und Partner GmbH noch bei der Firma G&amp;P Cruise Hotel Management GmbH angestellt.
+
+?GENDER ?NAME  war jedoch bei der Firma G&amp;P Sea Cruise Hotel Management (Cyprus-Limassol) Ltd beschäftigt.
+
+Bei weiteren Fragen wird Ihnen Frau Euripidou, die Geschäftsführerin von G&amp;P Sea Cruise Hotel Management (Cyprus-Limassol) Ltd (++357 250 288 53), gerne Auskunft geben. 
+			</field>
+			
+			<field name="text3_rep">
+?GENDER ?NAME  war jedoch bei der Firma G&amp;P Cruise Hotel Management S.à.r.l., Luxemburg beschäftigt.
+
+Bei weiteren Fragen wird Ihnen Herr Tholl (++352 26 68 31 95) gerne Auskunft geben.
+			</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		
+		<!-- ******************* DEFAULT VALUES COR ******************* -->
+		<record id="gp_contract_report_COR_EN" model="gp.contract_report">
+			<field name="report_type">COR</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Confirmation of your resignation without notice</field>
+			<field name="greeting_rep">Dear ?GENDER ?LASTNAME</field>
+			<field name="text1_rep">
+We hereby acknowledge your resignation from our employment relationship as of ?DATE_END due to your failure to appear at your work place onboard ?SHIP at the agreed date and time.
+
+OR
+
+As you failed to submit a medical attestation even after receiving several requests, which – as per employment contract – is necessary within 24 hours of the initial sick report, we see ourselves forced to regard this as resignation without notice from your side.
+
+The work relationship therefore ends with retroactive effect as per ?DATE_END.
+
+</field>
+			<field name="farewell_rep">Sincerely</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<record id="gp_contract_report_COR_DE" model="gp.contract_report">
+			<field name="report_type">COR</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Bestätigung Ihrer fristlosen Kündigung</field>
+			<field name="greeting_rep">Sehr geehrtee ?GENDER ?LASTNAME</field>
+			<field name="text1_rep">
+Hiermit nehmen wir zur Kenntnis, dass Sie Ihrerseits am ?DATE_END fristlos gekündigt haben, indem Sie nicht zum vereinbarten Zeitpunkt an Ihrer Arbeitsstelle an Bord der ?SHIP erschienen sind.
+
+ODER
+
+Da Sie auch nach mehrmaligen Aufforderungen kein Arztattest eingereicht haben - wie im Arbeitsvertrag ausdrücklich innert 24 Stunden ab Krankmeldung verlangt - sehen wir uns gezwungen, dies als fristlose Kündigung Ihrerseits zu betrachten.
+
+Ihr Arbeitsverhältnis endet somit rückwirkend auf den ?DATE_END.
+
+</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		
+		<!-- ******************* DEFAULT VALUES ERL ******************* -->
+		<record id="gp_contract_report_ERL_EN" model="gp.contract_report">
+			<field name="report_type">ERL</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Lucerne/Limassol</field>
+			<field name="title_rep">Thank you very much!</field>
+			<field name="greeting_rep">Dear ?GENDER ?LASTNAME</field>
+			<field name="text1_rep">
+The ?SHIP ends (OR has ended) its year's high season in a few days (OR a few days ago) and together we can look back on a successful collaboration.
+
+With your commitment you have enabled our guests to experience an unforgettable holiday.
+
+We thank you very much and wish you all the best and continued success.  
+
+Enjoy your well deserved holiday and we look forward to seeing you again soon on one of our ships.
+
+</field>
+			<field name="farewell_rep">With best regards</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<record id="gp_contract_report_ERL_DE" model="gp.contract_report">
+			<field name="report_type">ERL</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Luzern/Limassol</field>
+			<field name="title_rep">Vielen Dank!</field>
+			<field name="greeting_rep">Lieber ?GENDER ?LASTNAME</field>
+			<field name="text1_rep">
+Die ?SHIP hat vor (ODER wird in) wenigen Tagen ihre diesjährige Hauptsaison beendet (ODER beenden). Gemeinsam blicken wir auf eine erfolgreiche Zusammenarbeit zurück.
+
+Sie haben mit Ihrem Engagement unseren Gästen ein unvergessliches Urlaubserlebnis ermöglicht.
+
+Dafür danken wir Ihnen ganz herzlich!
+
+Wir wünschen Ihnen nun alles Gute und weiterhin viel Erfolg. Geniessen Sie Ihre wohlverdienten Ferien und wir freuen uns auf ein baldiges Wiedersehen auf einem unserer Schiffe.
+</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">?USER</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+
+		
+		<!-- ******************* DEFAULT VALUES COC ******************* -->
+		<record id="gp_contract_report_COC_EN" model="gp.contract_report">
+			<field name="report_type">COC</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">?SHIP</field>
+			<field name="title_rep">Cancellation of Employment Contract</field>
+			<field name="text1_rep">
+The employment contract between ?NAME and G&amp;P Sea Cruise Hotel Management (Cyprus-Limassol) Ltd is hereby cancelled as of ?DATE_END by mutual agreement. 
+			
+The final account as of the date of leaving shall include all remaining entitlements.
+
+?PRENAME guarantees faultless and professional service up to and including the final working day.
+			</field>
+			<field name="farewell_rep">Sincerely</field>
+			<field name="signature_rep">Julie Euripidou (or pp Hotel Manager)</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<record id="gp_contract_report_COC_DE" model="gp.contract_report">
+			<field name="report_type">COC</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">?SHIP</field>
+			<field name="title_rep">Auflösung des Arbeitsvertrages</field>
+			<field name="text1_rep">
+Hiermit wird der Arbeitsvertrag zwischen ?NAME und G&amp;P Sea Cruise Hotel Management (Cyprus-Limassol) Ltd per ?DATE_END in gegenseitigem Einverständnis aufgelöst. 
+
+Die Schlussabrechnung per Austrittsdatum erfolgt per Saldo aller Ansprüche.
+
+?NAME garantiert einen tadellosen und professionellen Einsatz bis zum letzten Arbeitstag.			
+
+			</field>
+			<field name="farewell_rep">Mit freundlichen Grüssen</field>
+			<field name="signature_rep">Julie Euripidou (oder i.A. Hotel Manager)</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<!-- ******************* DEFAULT VALUES IGL ******************* -->
+		<record id="gp_contract_report_IGL_EN" model="gp.contract_report">
+			<field name="report_type">IGL</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Guarantee Letter / Homeward journey</field>
+			<field name="text1_rep">
+<![CDATA[<b>?GENDER ?LASTNAME</b> has successfully terminated his/her contract and is now travelling back home. The transportation from the vessel to the airport is arranged by G&P.]]>
+			</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<record id="gp_contract_report_IGL_DE" model="gp.contract_report">
+			<field name="report_type">IGL</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="title_rep">Guarantee Letter / Homeward journey</field>
+			<field name="text1_rep">
+<![CDATA[<b>?GENDER ?LASTNAME</b> has successfully terminated his/her contract and is now travelling back home. The transportation from the vessel to the airport is arranged by G&P.]]>
+			</field>
+			<field name="signature_rep">Julie Euripidou</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>
+		
+		<!-- ******************* DEFAULT VALUES KFR ******************* -->
+		
+		<record id="gp_contract_report_KFR_DE" model="gp.contract_report">
+			<field name="report_type">KFR</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol</field>
+			<field name="greeting_rep">Monsier, Madame</field>
+			<field name="text1_rep">
+<![CDATA[Wir müssen Ihnen mitteilen, dass ?NAME, als ?POSITION tätig, den Arbeitsvertag zum ?DATE_END, nach dem Dienst, <font color="red"> innerhalb der Probezeit (nur wenn Probezeit noch läuft)</font>, gekündigt hat. <br><br>
+Wir verbleiben mit freundlichen Grüssen. </br> </br>
+Nous vous informons que le salarié, ?NAME, employé en qualité de ?POSITION, a démissionné de son contrat de travail <font color=" red dans la période d’essai (nur wenn Probezeit noch läuft)</font>, avec effet au ?DATE_END, après son service. </br> 
+Nous vous prions d’agréer, Monsieur, Madame, l’expression de nos salutations distinguées.
+]]>
+			</field>
+			<field name="farewell_rep"></field>
+			<field name="signature_rep">?USER</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>	
+		
+		<!-- ******************* DEFAULT VALUES PD_U1_Form ******************* -->
+		
+		<record id="gp_contract_report_PDU1_EN" model="gp.contract_report">
+			<field name="report_type">PDU1</field>
+			<field name="language_rep">en_US</field>
+			<field name="place_rep">Limassol/Luzern</field>
+			<field name="title_rep">PD U1 form</field>
+			<field name="greeting_rep">Dear ?GENDER ?LASTNAME</field>
+			<field name="text1_rep">
+<![CDATA[Enclosed we are sending you the PD U1 form for the period of time you worked in France this season. </br>
+
+Please ensure that you keep this document safe, as it is an original and there is no possibility of re-issuing it. </br>
+
+In case of questions in regards to this, please feel free to contact us.
+]]>
+			</field>			
+			<field name="farewell_rep">Best regards</field>
+			<field name="signature_rep">?USER</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>	
+		
+		<record id="gp_contract_report_PDU1_DE" model="gp.contract_report">
+			<field name="report_type">PDU1</field>
+			<field name="language_rep">de_DE</field>
+			<field name="place_rep">Limassol/Luzern</field>
+			<field name="title_rep">Ihr PD U1 Formular</field>
+			<field name="greeting_rep">Lieber ?GENDER ?LASTNAME</field>
+			<field name="text1_rep">
+<![CDATA[Für die Zeit in der Sie in dieser Saison in Frankreich gearbeitet haben, erhalten Sie das beiliegende U1.</br>
+
+Bitte heben Sie sich dieses Formular gut auf, da es sich um ein Original handelt und kein weiteres mehr ausgestellt werden kann.</br>
+Sollten Sie hierzu noch Fragen, lassen Sie es uns bitte wissen.
+]]>
+			</field>
+			<field name="farewell_rep">Freundliche Grüsse</field>
+			<field name="signature_rep">?USER</field>
+			<field name="dig_signature_rep">True</field>
+			<field name="is_default_rep" eval="True" />
+		</record>			
+			
+	</data>
+</openerp> 
+        
+       
